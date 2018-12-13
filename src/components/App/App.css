@@ -1,0 +1,14 @@
+h1 {
+    font-family: 'Nanum Gothic',
+        sans-serif;
+}
+
+p {
+    font-family: 'Nanum Gothic',
+        sans-serif;
+    font-size: 23px;
+}
+
+.app {
+    padding: 70px;
+}
