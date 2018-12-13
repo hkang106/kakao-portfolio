@@ -12,3 +12,13 @@ p {
 .app {
     padding: 70px;
 }
+
+.navi {
+    opacity: 1;
+}
+
+.navi:hover {
+
+    text-align: center;
+    background-color: #FFFFFF;
+}

@@ -4,11 +4,16 @@ import 'semantic-ui-css/semantic.min.css';
 import './index.css';
 
 import PersonInfo from 'components/PersonInfo';
+import scrollToComponent from 'react-scroll-to-component';
 
 export default class MenuNavi extends Component {
-	state = { activeItem: 'home' };
+	state = { activeItem: 'JOSHUA' };
 
-	handleItemClick = (e, { name }) => this.setState({ activeItem: name });
+	handleItemClick = (e, { name }) => {
+		
+		this.setState({ activeItem: name });
+	};
+
 	componentDidMount = () => {
 		this.setState({ activeItem: 'JOSHUA' });
 	};
@@ -20,10 +25,14 @@ export default class MenuNavi extends Component {
 				<div class="navi">
 					<Menu pointing secondary fixed="top" size="massive">
 						<Menu.Item name="JOSHUA" active={activeItem === 'JOSHUA'} onClick={this.handleItemClick} />
-						<Menu.Item name="논문" active={activeItem === '논문'} onClick={this.handleItemClick} />
-						<Menu.Item name="특허" active={activeItem === '특허'} onClick={this.handleItemClick} />
-						<Menu.Item name="프로젝트" active={activeItem === '프로젝트'} onClick={this.handleItemClick} />
-						<Menu.Item name="기타" active={activeItem === '기타'} onClick={this.handleItemClick} />
+						<Menu.Item
+							name="PUBLICATION"
+							active={activeItem === 'PUBLICATION'}
+							onClick={this.handleItemClick}
+						/>
+						<Menu.Item name="PATENT" active={activeItem === 'PATENT'} onClick={this.handleItemClick} />
+						<Menu.Item name="PROJECT" active={activeItem === 'PROJECT'} onClick={this.handleItemClick} />
+						<Menu.Item name="MISC" active={activeItem === 'MISC'} onClick={this.handleItemClick} />
 					</Menu>
 				</div>
 
