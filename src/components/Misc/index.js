@@ -4,10 +4,7 @@ import { Image, Label, Item } from 'semantic-ui-react';
 const Misc = () => (
 	<Item.Group>
 		<Item>
-			<Item.Image
-				size="tiny"
-				src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Georgia_Tech_seal.svg/1200px-Georgia_Tech_seal.svg.png"
-			/>
+			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=14eyEQVkwcwD4DH0jQFGmDlqMxjvbhH6Z" />
 
 			<Item.Content>
 				<Item.Header as="a">
@@ -27,10 +24,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image
-				size="tiny"
-				src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/KAIST_logo.svg/200px-KAIST_logo.svg.png"
-			/>
+			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1t7KOj0oa4bhmZymdRAUL83U6UsbYPyGN" />
 
 			<Item.Content>
 				<Item.Header as="a">
@@ -49,10 +43,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image
-				size="tiny"
-				src="https://yt3.ggpht.com/a-/AN66SAwZwA8Uk-Z8TMvrlhTNKs_KIg5_BqtBFK4g=s900-mo-c-c0xffffffff-rj-k-no"
-			/>
+			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1gEBEFgzUUl08_OaFmuk-wJOnttrO_cGq" />
 
 			<Item.Content>
 				<Item.Header as="a">
@@ -68,7 +59,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image size="tiny" src="https://ph.sisain.co.kr/news/photo/201708/29976_58051_5802.jpg" />
+			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1HK_DXmvftq8RHdBN2lNsOrnxqF4H6YPn" />
 
 			<Item.Content>
 				<Item.Header>현대카드 장학금</Item.Header>
@@ -80,10 +71,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image
-				size="tiny"
-				src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dow_Chemical_Company_logo.svg/1200px-Dow_Chemical_Company_logo.svg.png"
-			/>
+			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1aT56b8CTeowtDmY7zybuM3vHx53p7vcG" />
 
 			<Item.Content>
 				<Item.Header as="a">

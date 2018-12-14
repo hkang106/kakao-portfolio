@@ -5,7 +5,7 @@ const Project = () => (
 	<div>
 		<Embed
 			id="iJjQ86t4B8Q"
-			placeholder="http://www.aitimes.kr/news/photo/201711/10981_10520_2923.png"
+			placeholder="http://drive.google.com/uc?export=view&id=1noAsJuIkLNXOGDinkOdwb2aJSq-ED69U"
 			source="youtube"
 		/>
 
