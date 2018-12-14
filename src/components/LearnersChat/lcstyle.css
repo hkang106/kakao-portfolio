@@ -1,0 +1,13 @@
+.lc-container {
+
+    display: flex;
+}
+
+.lc-first-col {
+    background-color: grey;
+    width: 65%;
+}
+
+.lc-second-col {
+    width: 35%;
+}

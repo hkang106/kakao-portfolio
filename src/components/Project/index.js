@@ -1,5 +1,6 @@
 import React from 'react';
-import { Embed, Message } from 'semantic-ui-react';
+import { Embed, Message, Grid, Label, Segment } from 'semantic-ui-react';
+import LearnersChat from 'components/LearnersChat';
 const Project = () => (
 	<div>
 		<Embed
@@ -49,6 +50,22 @@ const Project = () => (
 				<Message.Item>상품 진열 위치 Q&A</Message.Item>
 			</Message.List>
 		</Message>
+
+		<br />
+		<br />
+		<br />
+		<br />
+
+		<Grid columns={1}>
+			<Grid.Row>
+				<Grid.Column>
+					<Segment padded>
+						<Label attached="top left">치매예방프로그램 대화를통한 개인화 추천 연구</Label>
+						<LearnersChat />
+					</Segment>
+				</Grid.Column>
+			</Grid.Row>
+		</Grid>
 	</div>
 );
 
