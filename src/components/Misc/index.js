@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Item } from 'semantic-ui-react';
+import { Image, Label, Item } from 'semantic-ui-react';
 
 const Misc = () => (
 	<Item.Group>
@@ -10,12 +10,19 @@ const Misc = () => (
 			/>
 
 			<Item.Content>
-				<Item.Header as="a">조지아공과대학교 학위 증명서</Item.Header>
-				<Item.Meta>Description</Item.Meta>
-				<Item.Description>
-					<Image src="" />
-				</Item.Description>
-				<Item.Extra>Additional Details</Item.Extra>
+				<Item.Header as="a">
+					<a
+						href="http://drive.google.com/uc?export=view&id=1QRdSlOcWvzy-E1brCG3DiCboBsS-c6pc"
+						target="_blank"
+					>
+						학위 증명서
+					</a>
+				</Item.Header>
+
+				<Item.Meta>
+					<Label color="yellow">산업공학</Label>
+					<Label color="yellow">High Honor Graduation</Label>
+				</Item.Meta>
 			</Item.Content>
 		</Item>
 
@@ -26,12 +33,18 @@ const Misc = () => (
 			/>
 
 			<Item.Content>
-				<Item.Header as="a">한국과학기술원 석사 졸업 증명서</Item.Header>
-				<Item.Meta>Description</Item.Meta>
-				<Item.Description>
-					<span>desc</span>
-				</Item.Description>
-				<Item.Extra>Additional Details</Item.Extra>
+				<Item.Header as="a">
+					<a
+						href="http://drive.google.com/uc?export=view&id=1M5rM2BTVT1xinSRkkSqfxa_VF-cwKeD-"
+						target="_blank"
+					>
+						석사 졸업 증명서
+					</a>
+				</Item.Header>
+
+				<Item.Meta>
+					<Label color="blue">지식서비스공학대학원(산업공학)</Label>
+				</Item.Meta>
 			</Item.Content>
 		</Item>
 
@@ -42,12 +55,15 @@ const Misc = () => (
 			/>
 
 			<Item.Content>
-				<Item.Header as="a">Home Depot 석사 입학 추천서</Item.Header>
-				<Item.Meta>Description</Item.Meta>
-				<Item.Description>
-					<span>desc</span>
-				</Item.Description>
-				<Item.Extra>Additional Details</Item.Extra>
+				<Item.Header as="a">
+					<a href="https://drive.google.com/open?id=1zYG5Vu4B8qkRtcZ80gRzmgft1UZ_OfCZ" target="_blank">
+						Home Depot 석사 입학 추천서
+					</a>
+				</Item.Header>
+
+				<Item.Meta>
+					<Label color="orange">Forecasting & Analytics Department</Label>
+				</Item.Meta>
 			</Item.Content>
 		</Item>
 
@@ -55,12 +71,11 @@ const Misc = () => (
 			<Item.Image size="tiny" src="https://ph.sisain.co.kr/news/photo/201708/29976_58051_5802.jpg" />
 
 			<Item.Content>
-				<Item.Header as="a">현대카드 장학금</Item.Header>
-				<Item.Meta>Description</Item.Meta>
-				<Item.Description>
-					<span>desc</span>
-				</Item.Description>
-				<Item.Extra>Additional Details</Item.Extra>
+				<Item.Header>현대카드 장학금</Item.Header>
+				<Item.Meta>
+					<Label color="black">솔브릿지국제대학</Label>
+					<Label color="black">2010년 성적 우수 장학생</Label>
+				</Item.Meta>
 			</Item.Content>
 		</Item>
 
@@ -71,12 +86,15 @@ const Misc = () => (
 			/>
 
 			<Item.Content>
-				<Item.Header as="a">다우 케미칼 장학금</Item.Header>
-				<Item.Meta>Description</Item.Meta>
-				<Item.Description>
-					<span>desc</span>
-				</Item.Description>
-				<Item.Extra>Additional Details</Item.Extra>
+				<Item.Header as="a">
+					<a href="https://news.joins.com/article/17038530" target="_blank">
+						다우 케미칼 장학금
+					</a>
+				</Item.Header>
+
+				<Item.Meta>
+					<Label color="red">2015년 석사 우수 장학생</Label>
+				</Item.Meta>
 			</Item.Content>
 		</Item>
 	</Item.Group>

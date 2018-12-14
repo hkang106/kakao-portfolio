@@ -15,6 +15,12 @@ p {
 
 .navi {
     opacity: 1;
+    background-color: #FFDC00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
 }
 
 .navi:hover {

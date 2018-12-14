@@ -1,32 +1,49 @@
 import React from 'react';
-import { Button, Icon, Image, Item, Label } from 'semantic-ui-react';
+import { Button, Icon, Image, Item, Label, List } from 'semantic-ui-react';
 import { Message } from 'semantic-ui-react';
 const Patent = () => (
 	<Message>
 		<Item.Group divided>
-
 			<Item>
-                <Item.Image src="http://drive.google.com/uc?export=view&id=1yEBr6JOdInb8LwEorwWHuz05r916LqXV" />
+				<Item.Image src="http://drive.google.com/uc?export=view&id=1yEBr6JOdInb8LwEorwWHuz05r916LqXV" />
 
 				<Item.Content>
-					<Item.Header as="a">
-						낙상 감지 시스템 및 방법
-					</Item.Header>
+					<Item.Header as="a">낙상 감지 시스템 및 방법</Item.Header>
 					<Item.Meta>
 						<div class="author">
-							
-								<span className="cinema">이재길</span>
-							
-							<span className="cinema"> | <b>강현국</b></span>
+							<span className="cinema">이재길</span>
+
+							<span className="cinema">
+								{' '}
+								| <b>강현국</b>
+							</span>
 
 							<span className="cinema"> | 강민서</span>
 						</div>
 					</Item.Meta>
-					<Item.Description>BigComp 2017</Item.Description>
+					<Item.Description>
+						<List>
+							<List.Item>
+								<b>출원번호:</b> 10-2017-0002298호
+							</List.Item>
+							<List.Item>
+								<b>등록일:</b> 2018-05-18
+							</List.Item>
+						</List>
+					</Item.Description>
 					<Item.Extra>
-						<Label icon="globe" content="Additional Languages" />
-						<Label icon="file">PDF</Label>
-						<Label>Limited</Label>
+						<a
+							href="http://drive.google.com/uc?export=view&id=1xEQ8VWNm_gwf4saIJMq41uojPEaU8dt2"
+							target="_blank"
+						>
+							<Label as="a">발명 등록서</Label>
+						</a>
+						<a
+							href="http://drive.google.com/uc?export=view&id=1QDchJDT4tquZpkcakBxkEnpJOvBUyKBf"
+							target="_blank"
+						>
+							<Label as="a">특허증</Label>
+						</a>
 					</Item.Extra>
 				</Item.Content>
 			</Item>

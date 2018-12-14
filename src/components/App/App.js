@@ -4,7 +4,6 @@ import { Container, Header, Divider, Menu } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
 import Publication from 'components/Publication';
-import MenuNavi from 'components/MenuNavi';
 import Patent from 'components/Patent';
 import Project from 'components/Project';
 import Misc from 'components/Misc';
@@ -12,7 +11,6 @@ import Footer from 'components/Footer';
 import PersonInfo from 'components/PersonInfo';
 
 import scrollToComponent from 'react-scroll-to-component';
-
 class App extends Component {
 	state = { activeItem: 'JOSHUA' };
 
@@ -37,10 +35,8 @@ class App extends Component {
 		scrollToComponent(this.misc, { offset: 750, align: 'bottom', duration: 500, ease: 'inExpo' });
 	};
 
-	componentDidMount = () => {
-		this.setState({ activeItem: 'JOSHUA' });
-	};
-
+	componentDidMount = () => {};
+	componentDidUpdate() {}
 	render() {
 		const { activeItem } = this.state;
 		return (
@@ -80,26 +76,26 @@ class App extends Component {
 				<Container>
 					<div class="app">
 						<section ref={(ref) => (this.publication = ref)} />
-						<Header as="h1">Publications</Header>
+						<Header size="huge">Publications</Header>
 						<Publication />
 						<Divider />
 
 						<br />
 						<br />
 						<section ref={(ref) => (this.patent = ref)} />
-						<Header as="h1">Patent</Header>
+						<Header size="huge">Patent</Header>
 						<Patent />
 						<Divider />
 						<br />
 						<br />
 						<section ref={(ref) => (this.project = ref)} />
-						<Header as="h1">Project</Header>
+						<Header size="huge">Project</Header>
 						<Project />
 						<Divider />
 						<br />
 						<br />
 						<section ref={(ref) => (this.misc = ref)} />
-						<Header as="h1">Misc</Header>
+						<Header size="huge">Misc</Header>
 						<Misc />
 					</div>
 				</Container>

@@ -6,7 +6,7 @@ import { Divider, Grid, Image, Segment, Flag, List } from 'semantic-ui-react';
 
 const PersonInfo = () => {
 	return (
-		<div>
+		<div class="profile">
 			<Container>
 				<Grid centered columns={2} relaxed="very">
 					<Grid.Column width={6}>
