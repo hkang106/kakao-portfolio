@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
-import { List } from 'semantic-ui-react';
+import { List, Icon } from 'semantic-ui-react';
 
 export default class Footer extends Component {
 	render() {
@@ -11,9 +11,17 @@ export default class Footer extends Component {
 					<List.Item disabled>Made by Joshua Hyungook Kang</List.Item>
 				</List>
 
+				<List horizontal>
+					<List.Item>
+						<a href="https://github.com/hkang106/kakao-portfolio" target="_blank">
+							소스코드@Github
+						</a>
+					</List.Item>
+				</List>
+
 				<List horizontal floated="right">
 					<List.Item>Latest Update:</List.Item>
-					<List.Item disabled>Thursday, December 12, 2018</List.Item>
+					<List.Item disabled>Friday, December 13, 2018</List.Item>
 				</List>
 			</div>
 		);
