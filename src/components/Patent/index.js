@@ -8,7 +8,7 @@ const Patent = () => (
 				<Item.Image src="http://drive.google.com/uc?export=view&id=1yEBr6JOdInb8LwEorwWHuz05r916LqXV" />
 
 				<Item.Content>
-					<Item.Header as="a">낙상 감지 시스템 및 방법</Item.Header>
+					<Item.Header>낙상 감지 시스템 및 방법</Item.Header>
 					<Item.Meta>
 						<div class="author">
 							<span className="cinema">이재길</span>
