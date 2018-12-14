@@ -28,7 +28,10 @@ const Publication = () => (
 					<Item.Description>
 						<List>
 							<List.Item>
-								<a href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7877084">
+								<a
+									href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7877084"
+									target="_blank"
+								>
 									2017 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp)
 								</a>
 							</List.Item>
@@ -44,13 +47,17 @@ const Publication = () => (
 							href="http://drive.google.com/uc?export=view&id=1UXjEuSKpCpb7QQ_COLJsb4MWj-4w1u_y"
 							target="_blank"
 						>
-							<Label as="a">PDF</Label>
+							<Label as="a" color="red">
+								PDF
+							</Label>
 						</a>
 						<a
 							href="http://drive.google.com/uc?export=view&id=10984nmYne_OSNes4Ks_0Wrt7PIoniGFF"
 							target="_blank"
 						>
-							<Label as="a">Slides</Label>
+							<Label as="a" color="black">
+								Slides
+							</Label>
 						</a>
 					</Item.Extra>
 				</Item.Content>
@@ -61,7 +68,7 @@ const Publication = () => (
 
 				<Item.Content>
 					<Item.Header as="a">
-						<a href="https://ieeexplore.ieee.org/document/7425962">
+						<a href="https://ieeexplore.ieee.org/document/7425962" target="_blank">
 							Human Body Posture Recognition with Discrete Cosine Transform
 						</a>
 					</Item.Header>
@@ -73,7 +80,10 @@ const Publication = () => (
 					</Item.Meta>
 					<Item.Description>
 						<List.Item>
-							<a href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7422342">
+							<a
+								href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7422342"
+								target="_blank"
+							>
 								2016 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp)
 							</a>
 						</List.Item>
@@ -83,13 +93,17 @@ const Publication = () => (
 					</Item.Description>
 					<Item.Extra>
 						<a href="https://drive.google.com/open?id=1koNYMoDYYxtrsR9fKccyotkjbES3kIBw" target="_blank">
-							<Label as="a">PDF</Label>
+							<Label as="a" color="red">
+								PDF
+							</Label>
 						</a>
 						<a
 							href="http://drive.google.com/uc?export=view&id=1MdCzoJbTJpAmwINeKiHGonhPSsdaI6db"
 							target="_blank"
 						>
-							<Label as="a">Slides</Label>
+							<Label as="a" color="black">
+								Slides
+							</Label>
 						</a>
 					</Item.Extra>
 				</Item.Content>
@@ -125,7 +139,9 @@ const Publication = () => (
 							href="http://drive.google.com/uc?export=view&id=1Cxkm20a_Whz9_wLMJ1rdanPQqvfnQpeF"
 							target="_blank"
 						>
-							<Label as="a">PDF</Label>
+							<Label as="a" color="red">
+								PDF
+							</Label>
 						</a>
 					</Item.Extra>
 				</Item.Content>
@@ -148,7 +164,10 @@ const Publication = () => (
 						</div>
 					</Item.Meta>
 					<Item.Description>
-						<a href="http://library.kaist.ac.kr/search/detail/view.do?bibCtrlNo=663511&flag=t">
+						<a
+							href="http://library.kaist.ac.kr/search/detail/view.do?bibCtrlNo=663511&flag=t"
+							target="_blank"
+						>
 							한국과학기술원, 2016
 						</a>
 					</Item.Description>
@@ -157,13 +176,15 @@ const Publication = () => (
 							href="http://kdrm.kaist.ac.kr/ezpdfwebviewer/ezpdf/customLayout.jsp?encdata=67D4CD8135C7372A42DB0940C33C3EA1052BF1A8B4438DB3EB0C4EE2112202DAE464993BE0419278598BD59B7D4A037340951BC883C23F275CED758C343B58365B00F5FD41B0997C&lang=ko"
 							target="_blank"
 						>
-							<Label as="a">PDF(도서관 출판본)</Label>
+							<Label as="a" color="red">
+								PDF(도서관 출판본)
+							</Label>
 						</a>
 						<a
 							href="http://drive.google.com/uc?export=view&id=1KG9-eqNhSQK2sRxx-q04ouNR0priJOyZ"
 							target="_blank"
 						>
-							<Label>PDF(개인)</Label>
+							<Label color="red">PDF(개인)</Label>
 						</a>
 					</Item.Extra>
 				</Item.Content>
