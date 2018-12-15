@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "f180045bad18446995df",
+    "revision": "4fa115d11ff4b138ce64",
     "url": "/kakao-portfolio/static/css/main.a3114ec4.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/profile-main.4abe5d84.jpg"
   },
   {
-    "revision": "275d607840c3f0b77726",
-    "url": "/kakao-portfolio/static/js/1.275d6078.chunk.js"
+    "revision": "2145e0924e20061089e1",
+    "url": "/kakao-portfolio/static/js/1.2145e092.chunk.js"
   },
   {
     "revision": "c3271036dd476adeba61",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/flags.9c74e172.png"
   },
   {
-    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
-    "url": "/kakao-portfolio/static/media/outline-icons.ef60a4f6.woff"
-  },
-  {
     "revision": "cd6c777f1945164224dee082abaea03a",
     "url": "/kakao-portfolio/static/media/outline-icons.cd6c777f.woff2"
+  },
+  {
+    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
+    "url": "/kakao-portfolio/static/media/outline-icons.ef60a4f6.woff"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "f180045bad18446995df",
-    "url": "/kakao-portfolio/static/js/main.f180045b.chunk.js"
+    "revision": "4fa115d11ff4b138ce64",
+    "url": "/kakao-portfolio/static/js/main.4fa115d1.chunk.js"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -124,11 +124,11 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/dow.afba0dda.png"
   },
   {
-    "revision": "275d607840c3f0b77726",
+    "revision": "2145e0924e20061089e1",
     "url": "/kakao-portfolio/static/css/1.b22506f0.chunk.css"
   },
   {
-    "revision": "4547e2f552a6147db6d5f670c4398379",
+    "revision": "ec2f6b0c8b247afdfb214f925f0f5ea7",
     "url": "/kakao-portfolio/index.html"
   }
 ];
