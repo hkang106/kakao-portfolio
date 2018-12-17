@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kakao-portfolio/precache-manifest.b80de5369321bccc9380dfc3c1b3d9e4.js"
+  "/kakao-portfolio/precache-manifest.ad3fb6e53dc3a0b463d82a6849f717c0.js"
 );
 
 workbox.clientsClaim();
