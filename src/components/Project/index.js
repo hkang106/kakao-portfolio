@@ -3,11 +3,7 @@ import { Embed, Message, Grid, Label, Segment } from 'semantic-ui-react';
 import LearnersChat from 'components/LearnersChat';
 const Project = () => (
 	<div>
-		<Embed
-			id="iJjQ86t4B8Q"
-			placeholder="http://drive.google.com/uc?export=view&id=1noAsJuIkLNXOGDinkOdwb2aJSq-ED69U"
-			source="youtube"
-		/>
+		<Embed id="iJjQ86t4B8Q" placeholder={require('images/musio-embed.png')} source="youtube" />
 
 		<Message>
 			<Message.Header>GS25 무인 편의점 적용을 위한 상품 추천 챗봇</Message.Header>
@@ -22,11 +18,7 @@ const Project = () => (
 		<br />
 		<br />
 
-		<Embed
-			id="XfP7gPQHtXI"
-			placeholder="http://www.aitimes.kr/news/photo/201711/10981_10520_2923.png"
-			source="youtube"
-		/>
+		<Embed id="XfP7gPQHtXI" placeholder={require('images/musio-embed.png')} source="youtube" />
 		<Message>
 			<Message.List>
 				<Message.Item>유저 기반 추천</Message.Item>
@@ -39,11 +31,7 @@ const Project = () => (
 		<br />
 		<br />
 
-		<Embed
-			id="nxeovzZ4q8c"
-			placeholder="http://www.aitimes.kr/news/photo/201711/10981_10520_2923.png"
-			source="youtube"
-		/>
+		<Embed id="nxeovzZ4q8c" placeholder={require('images/musio-embed.png')} source="youtube" />
 		<Message>
 			<Message.List>
 				<Message.Item>판매량 랭킹 추천</Message.Item>

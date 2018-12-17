@@ -1,11 +1,13 @@
 import React from 'react';
 import { Button, Icon, Image, Item, Label, List } from 'semantic-ui-react';
 import { Message } from 'semantic-ui-react';
+
+//"http://drive.google.com/uc?export=view&id=1yEBr6JOdInb8LwEorwWHuz05r916LqXV"
 const Patent = () => (
 	<Message>
 		<Item.Group divided>
 			<Item>
-				<Item.Image src="http://drive.google.com/uc?export=view&id=1yEBr6JOdInb8LwEorwWHuz05r916LqXV" />
+				<Item.Image src={require('images/patent/fall.png')} />
 
 				<Item.Content>
 					<Item.Header>낙상 감지 시스템 및 방법</Item.Header>

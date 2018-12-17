@@ -1,10 +1,14 @@
 import React from 'react';
 import { Image, Label, Item } from 'semantic-ui-react';
-
+//gt: "http://drive.google.com/uc?export=view&id=14eyEQVkwcwD4DH0jQFGmDlqMxjvbhH6Z"
+//kaist; "http://drive.google.com/uc?export=view&id=1t7KOj0oa4bhmZymdRAUL83U6UsbYPyGN"
+//homedepot: "http://drive.google.com/uc?export=view&id=1gEBEFgzUUl08_OaFmuk-wJOnttrO_cGq"
+//hyundai: "http://drive.google.com/uc?export=view&id=1HK_DXmvftq8RHdBN2lNsOrnxqF4H6YPn"
+//dow: "http://drive.google.com/uc?export=view&id=1aT56b8CTeowtDmY7zybuM3vHx53p7vcG"
 const Misc = () => (
 	<Item.Group>
 		<Item>
-			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=14eyEQVkwcwD4DH0jQFGmDlqMxjvbhH6Z" />
+			<Item.Image size="tiny" src={require('images/misc/gt.png')} />
 
 			<Item.Content>
 				<Item.Header as="a">
@@ -24,7 +28,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1t7KOj0oa4bhmZymdRAUL83U6UsbYPyGN" />
+			<Item.Image size="tiny" src={require('images/misc/kaist.png')} />
 
 			<Item.Content>
 				<Item.Header as="a">
@@ -43,7 +47,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1gEBEFgzUUl08_OaFmuk-wJOnttrO_cGq" />
+			<Item.Image size="tiny" src={require('images/misc/homedepot.jpg')} />
 
 			<Item.Content>
 				<Item.Header as="a">
@@ -59,7 +63,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1HK_DXmvftq8RHdBN2lNsOrnxqF4H6YPn" />
+			<Item.Image size="tiny" src={require('images/misc/hyundai.jpg')} />
 
 			<Item.Content>
 				<Item.Header>현대카드 장학금</Item.Header>
@@ -71,7 +75,7 @@ const Misc = () => (
 		</Item>
 
 		<Item>
-			<Item.Image size="tiny" src="http://drive.google.com/uc?export=view&id=1aT56b8CTeowtDmY7zybuM3vHx53p7vcG" />
+			<Item.Image size="tiny" src={require('images/misc/dow.png')} />
 
 			<Item.Content>
 				<Item.Header as="a">
