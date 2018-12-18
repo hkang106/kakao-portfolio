@@ -1,15 +1,15 @@
 {
   "main.css": "/kakao-portfolio/static/css/main.aa62ba5b.chunk.css",
-  "main.js": "/kakao-portfolio/static/js/main.caa8114c.chunk.js",
-  "main.js.map": "/kakao-portfolio/static/js/main.caa8114c.chunk.js.map",
+  "main.js": "/kakao-portfolio/static/js/main.eeb54def.chunk.js",
+  "main.js.map": "/kakao-portfolio/static/js/main.eeb54def.chunk.js.map",
   "static/css/1.d02b36d7.chunk.css": "/kakao-portfolio/static/css/1.d02b36d7.chunk.css",
-  "static/js/1.9c914bbd.chunk.js": "/kakao-portfolio/static/js/1.9c914bbd.chunk.js",
-  "static/js/1.9c914bbd.chunk.js.map": "/kakao-portfolio/static/js/1.9c914bbd.chunk.js.map",
+  "static/js/1.20eb6d60.chunk.js": "/kakao-portfolio/static/js/1.20eb6d60.chunk.js",
+  "static/js/1.20eb6d60.chunk.js.map": "/kakao-portfolio/static/js/1.20eb6d60.chunk.js.map",
   "runtime~main.js": "/kakao-portfolio/static/js/runtime~main.c3271036.js",
   "runtime~main.js.map": "/kakao-portfolio/static/js/runtime~main.c3271036.js.map",
   "static/media/fall.png": "/kakao-portfolio/static/media/fall.f415cb96.png",
+  "static/media/semantic.min.css": "/kakao-portfolio/static/media/outline-icons.cd6c777f.woff2",
   "static/media/musio-embed.png": "/kakao-portfolio/static/media/musio-embed.b1a3cea6.png",
-  "static/media/semantic.min.css": "/kakao-portfolio/static/media/flags.9c74e172.png",
   "static/media/bigcomp2017.png": "/kakao-portfolio/static/media/bigcomp2017.0b22e5da.png",
   "static/media/bigcomp2016.png": "/kakao-portfolio/static/media/bigcomp2016.438a180f.png",
   "static/media/kcc.png": "/kakao-portfolio/static/media/kcc.1211ea2a.png",
@@ -22,6 +22,6 @@
   "static/css/main.aa62ba5b.chunk.css.map": "/kakao-portfolio/static/css/main.aa62ba5b.chunk.css.map",
   "static/css/1.d02b36d7.chunk.css.map": "/kakao-portfolio/static/css/1.d02b36d7.chunk.css.map",
   "index.html": "/kakao-portfolio/index.html",
-  "precache-manifest.65b2324002b736cd1187760cc59b2ea9.js": "/kakao-portfolio/precache-manifest.65b2324002b736cd1187760cc59b2ea9.js",
+  "precache-manifest.ddf3a5a96ee2622438f17ed029f90fc0.js": "/kakao-portfolio/precache-manifest.ddf3a5a96ee2622438f17ed029f90fc0.js",
   "service-worker.js": "/kakao-portfolio/service-worker.js"
 }
