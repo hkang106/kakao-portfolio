@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Icon, Image, Item, Label, List } from 'semantic-ui-react';
-import { Message } from 'semantic-ui-react';
+import { Message, Item, Label, List } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
 
 //"http://drive.google.com/uc?export=view&id=1yEBr6JOdInb8LwEorwWHuz05r916LqXV"
 const Patent = () => (
@@ -12,11 +12,10 @@ const Patent = () => (
 				<Item.Content>
 					<Item.Header>낙상 감지 시스템 및 방법</Item.Header>
 					<Item.Meta>
-						<div class="author">
+						<div className="author">
 							<span className="cinema">이재길</span>
 
 							<span className="cinema">
-								{' '}
 								| <b>강현국</b>
 							</span>
 
@@ -34,18 +33,20 @@ const Patent = () => (
 						</List>
 					</Item.Description>
 					<Item.Extra>
-						<a
+						<Label
+							as="a"
 							href="http://drive.google.com/uc?export=view&id=1xEQ8VWNm_gwf4saIJMq41uojPEaU8dt2"
 							target="_blank"
 						>
-							<Label as="a">발명 등록서</Label>
-						</a>
-						<a
+							발명 등록서
+						</Label>
+						<Label
+							as="a"
 							href="http://drive.google.com/uc?export=view&id=1QDchJDT4tquZpkcakBxkEnpJOvBUyKBf"
 							target="_blank"
 						>
-							<Label as="a">특허증</Label>
-						</a>
+							특허증
+						</Label>
 					</Item.Extra>
 				</Item.Content>
 			</Item>

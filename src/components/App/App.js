@@ -60,7 +60,7 @@ class App extends Component {
 		scrollToComponent(this.joshua, {
 			offset: -100,
 			align: 'top',
-			duration: 500,
+			duration: 0,
 			ease: 'inCirc'
 		});
 	};
@@ -69,7 +69,7 @@ class App extends Component {
 		const { activeItem } = this.state;
 		return (
 			<div>
-				<div class="navi">
+				<div className="navi">
 					<Menu pointing secondary fixed="top" size="massive">
 						<Menu.Item
 							name="JOSHUA"
@@ -96,12 +96,12 @@ class App extends Component {
 					</Menu>
 				</div>
 				<section ref={(ref) => (this.joshua = ref)} />
-				<div class="info">
+				<div className="info">
 					<PersonInfo />
 				</div>
 
 				<Container>
-					<div class="app">
+					<div className="app">
 						<section ref={(ref) => (this.publication = ref)} />
 
 						<Header size="huge">Publications</Header>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Embed, Message, Grid, Label, Segment } from 'semantic-ui-react';
 import LearnersChat from 'components/LearnersChat';
+import 'semantic-ui-css/semantic.min.css';
+
 const Project = () => (
 	<div>
 		<Embed id="iJjQ86t4B8Q" placeholder={require('images/musio-embed.png')} source="youtube" />

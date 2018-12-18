@@ -1,5 +1,7 @@
 import React from 'react';
-import { Image, Label, Item } from 'semantic-ui-react';
+import { Label, Item } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
+
 //gt: "http://drive.google.com/uc?export=view&id=14eyEQVkwcwD4DH0jQFGmDlqMxjvbhH6Z"
 //kaist; "http://drive.google.com/uc?export=view&id=1t7KOj0oa4bhmZymdRAUL83U6UsbYPyGN"
 //homedepot: "http://drive.google.com/uc?export=view&id=1gEBEFgzUUl08_OaFmuk-wJOnttrO_cGq"
@@ -15,6 +17,7 @@ const Misc = () => (
 					<a
 						href="http://drive.google.com/uc?export=view&id=1QRdSlOcWvzy-E1brCG3DiCboBsS-c6pc"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						학위 증명서
 					</a>
@@ -35,6 +38,7 @@ const Misc = () => (
 					<a
 						href="http://drive.google.com/uc?export=view&id=1M5rM2BTVT1xinSRkkSqfxa_VF-cwKeD-"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						석사 졸업 증명서
 					</a>
@@ -51,7 +55,11 @@ const Misc = () => (
 
 			<Item.Content>
 				<Item.Header as="a">
-					<a href="https://drive.google.com/open?id=1zYG5Vu4B8qkRtcZ80gRzmgft1UZ_OfCZ" target="_blank">
+					<a
+						href="https://drive.google.com/open?id=1zYG5Vu4B8qkRtcZ80gRzmgft1UZ_OfCZ"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						Home Depot 석사 입학 추천서
 					</a>
 				</Item.Header>
@@ -79,7 +87,7 @@ const Misc = () => (
 
 			<Item.Content>
 				<Item.Header as="a">
-					<a href="https://news.joins.com/article/17038530" target="_blank">
+					<a href="https://news.joins.com/article/17038530" target="_blank" rel="noopener noreferrer">
 						다우 케미칼 장학금
 					</a>
 				</Item.Header>

@@ -1,13 +1,14 @@
 import React from 'react';
-import { Container, Header, Icon, Dimmer } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import './index.css';
-import { Divider, Grid, Image, Segment, Flag, List, Loader } from 'semantic-ui-react';
-import ImageLoader from 'react-imageloader';
+import { Divider, Grid, Image, List, Container } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
+
+// import ImageLoader from 'react-imageloader';
 //"http://drive.google.com/uc?export=view&id=1bUMRsdx49JDFfIR_IzjQKwhrH6mvE4D1"
 const PersonInfo = () => {
 	return (
-		<div class="profile">
+		<div className="profile">
 			<Container>
 				<Grid centered columns={2} relaxed="very">
 					<Grid.Column width={6}>

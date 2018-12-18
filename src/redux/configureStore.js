@@ -22,7 +22,6 @@ const reducer = combineReducers({
 	routing: routerReducer,
 	i18nState,
 	user,
-
 	chat
 });
 

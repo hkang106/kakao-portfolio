@@ -1,17 +1,24 @@
 import React from 'react';
-import { Button, Icon, Image, Item, Label, List, Modal, Header } from 'semantic-ui-react';
-import { Message } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Button, Icon, Item, Label, List, Modal, Header, Message } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
+
 // bigcomp2017: "http://drive.google.com/uc?export=view&id=17CeG1pUfFWT3748ZI1BqEKm08jgNiQ7Y"
 // bigcomp2016: "http://drive.google.com/uc?export=view&id=1pD1JnSXl14HefDmDIhFHLigo4Mc8v6ik"
 // kcc: "http://drive.google.com/uc?export=view&id=1HZWyVJhxnERylhx_Qanl43W0_42bcKf_"
 export default class Publication extends React.Component {
-	close = () => this.setState({ open: false });
-	show = () => this.setState({ open: true });
-	state = { open: false };
+	close1 = () => this.setState({ open1: false });
+	show1 = () => this.setState({ open1: true });
+	close2 = () => this.setState({ open2: false });
+	show2 = () => this.setState({ open2: true });
+	close3 = () => this.setState({ open3: false });
+	show3 = () => this.setState({ open3: true });
+	close4 = () => this.setState({ open4: false });
+	show4 = () => this.setState({ open4: true });
+
+	state = { open1: false, open2: false, open3: false, open4: false };
 
 	render() {
-		const { open } = this.state;
+		const { open1, open2, open3, open4 } = this.state;
 		return (
 			<Message>
 				<Item.Group divided>
@@ -19,13 +26,16 @@ export default class Publication extends React.Component {
 						<Item.Image src={require('images/publication/bigcomp2017.png')} />
 
 						<Item.Content>
-							<Item.Header as="a">
-								<a href="https://ieeexplore.ieee.org/document/7881715" target="_blank">
-									Efficient Fall Detection Based On Event Pattern Matching in Image Stream
-								</a>
+							<Item.Header
+								as="a"
+								href="https://ieeexplore.ieee.org/document/7881715"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Efficient Fall Detection Based On Event Pattern Matching in Image Stream
 							</Item.Header>
 							<Item.Meta>
-								<div class="author">
+								<div className="author">
 									<b>
 										<span className="cinema">Hyun-Gook Kang</span>
 									</b>
@@ -40,6 +50,7 @@ export default class Publication extends React.Component {
 										<a
 											href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7877084"
 											target="_blank"
+											rel="noopener noreferrer"
 										>
 											2017 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp)
 										</a>
@@ -53,32 +64,34 @@ export default class Publication extends React.Component {
 								</List>
 							</Item.Description>
 							<Item.Extra>
-								<a
+								<Label
+									as="a"
+									color="red"
 									href="http://drive.google.com/uc?export=view&id=1UXjEuSKpCpb7QQ_COLJsb4MWj-4w1u_y"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
-									<Label as="a" color="red">
-										PDF
-									</Label>
-								</a>
-								<a
+									PDF
+								</Label>
+								<Label
+									as="a"
+									color="black"
 									href="http://drive.google.com/uc?export=view&id=10984nmYne_OSNes4Ks_0Wrt7PIoniGFF"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
-									<Label as="a" color="black">
-										Slides
-									</Label>
-								</a>
+									Slides
+								</Label>
 								<Modal
 									trigger={
-										<Label as="a" color="purple" onClick={() => this.show(true)}>
+										<Label as="a" color="purple" onClick={() => this.show1(true)}>
 											Abstract
 										</Label>
 									}
 									basic
 									size="small"
-									open={open}
-									onClose={this.close}
+									open={open1}
+									onClose={this.close1}
 								>
 									<Header>
 										<Label>Camera-Based Fall Detection</Label>
@@ -105,7 +118,7 @@ export default class Publication extends React.Component {
 										</p>
 									</Modal.Content>
 									<Modal.Actions>
-										<Button basic color="red" inverted onClick={this.close}>
+										<Button basic color="red" inverted onClick={this.close1}>
 											<Icon name="remove" />닫기
 										</Button>
 									</Modal.Actions>
@@ -118,10 +131,13 @@ export default class Publication extends React.Component {
 						<Item.Image src={require('images/publication/bigcomp2016.png')} />
 
 						<Item.Content>
-							<Item.Header as="a">
-								<a href="https://ieeexplore.ieee.org/document/7425962" target="_blank">
-									Human Body Posture Recognition with Discrete Cosine Transform
-								</a>
+							<Item.Header
+								as="a"
+								href="https://ieeexplore.ieee.org/document/7425962"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Human Body Posture Recognition with Discrete Cosine Transform
 							</Item.Header>
 							<Item.Meta>
 								<b>
@@ -135,6 +151,7 @@ export default class Publication extends React.Component {
 										<a
 											href="https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7422342"
 											target="_blank"
+											rel="noopener noreferrer"
 										>
 											2016 IEEE Int'l Conf. on Big Data and Smart Computing (BigComp)
 										</a>
@@ -145,32 +162,34 @@ export default class Publication extends React.Component {
 								</List>
 							</Item.Description>
 							<Item.Extra>
-								<a
+								<Label
+									as="a"
+									color="red"
 									href="https://drive.google.com/open?id=1koNYMoDYYxtrsR9fKccyotkjbES3kIBw"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
-									<Label as="a" color="red">
-										PDF
-									</Label>
-								</a>
-								<a
+									PDF
+								</Label>
+								<Label
+									as="a"
+									color="black"
 									href="http://drive.google.com/uc?export=view&id=1MdCzoJbTJpAmwINeKiHGonhPSsdaI6db"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
-									<Label as="a" color="black">
-										Slides
-									</Label>
-								</a>
+									Slides
+								</Label>
 								<Modal
 									trigger={
-										<Label as="a" color="purple" onClick={() => this.show(true)}>
+										<Label as="a" color="purple" onClick={() => this.show2(true)}>
 											Abstract
 										</Label>
 									}
 									basic
 									size="small"
-									open={open}
-									onClose={this.close}
+									open={open2}
+									onClose={this.close2}
 								>
 									<Header>
 										<Label>Automatic Surveillance Cameras</Label>
@@ -192,7 +211,7 @@ export default class Publication extends React.Component {
 										</p>
 									</Modal.Content>
 									<Modal.Actions>
-										<Button basic color="red" inverted onClick={this.close}>
+										<Button basic color="red" inverted onClick={this.close2}>
 											<Icon name="remove" />닫기
 										</Button>
 									</Modal.Actions>
@@ -205,13 +224,13 @@ export default class Publication extends React.Component {
 						<Item.Image src={require('images/publication/kcc.png')} />
 
 						<Item.Content>
-							<Item.Header as="a">
-								<a
-									href="https://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394210?TotalCount=0&Seq=10&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20"
-									target="_blank"
-								>
-									시계열 예측 모델을 이용한 커뮤니티 변화 예측
-								</a>
+							<Item.Header
+								as="a"
+								href="https://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394210?TotalCount=0&Seq=10&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								시계열 예측 모델을 이용한 커뮤니티 변화 예측
 							</Item.Header>
 
 							<Item.Meta>
@@ -229,24 +248,25 @@ export default class Publication extends React.Component {
 								</List>
 							</Item.Description>
 							<Item.Extra>
-								<a
+								<Label
+									as="a"
+									color="red"
 									href="http://drive.google.com/uc?export=view&id=1Cxkm20a_Whz9_wLMJ1rdanPQqvfnQpeF"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
-									<Label as="a" color="red">
-										PDF
-									</Label>
-								</a>
+									PDF
+								</Label>
 								<Modal
 									trigger={
-										<Label as="a" color="purple" onClick={() => this.show(true)}>
+										<Label as="a" color="purple" onClick={() => this.show3(true)}>
 											Abstract
 										</Label>
 									}
 									basic
 									size="small"
-									open={open}
-									onClose={this.close}
+									open={open3}
+									onClose={this.close3}
 								>
 									<Header>
 										<Label>Time Series Analysis</Label>
@@ -262,7 +282,7 @@ export default class Publication extends React.Component {
 										</p>
 									</Modal.Content>
 									<Modal.Actions>
-										<Button basic color="red" inverted onClick={this.close}>
+										<Button basic color="red" inverted onClick={this.close3}>
 											<Icon name="remove" />닫기
 										</Button>
 									</Modal.Actions>
@@ -275,13 +295,16 @@ export default class Publication extends React.Component {
 						<Item.Image src={require('images/publication/bigcomp2017.png')} />
 
 						<Item.Content>
-							<Item.Header as="a">
-								<a href="http://koasas.kaist.ac.kr/handle/10203/221984" target="_blank">
-									이미지 스트림에서의 이벤트 패턴 매칭에 기반한 효율적인 낙상 감지
-								</a>
+							<Item.Header
+								as="a"
+								href="http://koasas.kaist.ac.kr/handle/10203/221984"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								이미지 스트림에서의 이벤트 패턴 매칭에 기반한 효율적인 낙상 감지
 							</Item.Header>
 							<Item.Meta>
-								<div class="author">
+								<div className="author">
 									<b>
 										<span className="cinema">Hyun-Gook Kang</span>
 									</b>
@@ -293,6 +316,7 @@ export default class Publication extends React.Component {
 										<a
 											href="http://library.kaist.ac.kr/search/detail/view.do?bibCtrlNo=663511&flag=t"
 											target="_blank"
+											rel="noopener noreferrer"
 										>
 											2016 석사학위논문 - 한국과학기술원
 										</a>
@@ -300,31 +324,34 @@ export default class Publication extends React.Component {
 								</List>
 							</Item.Description>
 							<Item.Extra>
-								<a
+								<Label
+									as="a"
+									color="red"
 									href="http://kdrm.kaist.ac.kr/ezpdfwebviewer/ezpdf/customLayout.jsp?encdata=67D4CD8135C7372A42DB0940C33C3EA1052BF1A8B4438DB3EB0C4EE2112202DAE464993BE0419278598BD59B7D4A037340951BC883C23F275CED758C343B58365B00F5FD41B0997C&lang=ko"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
-									<Label as="a" color="red">
-										PDF(도서관 출판본)
-									</Label>
-								</a>
-								<a
+									PDF(도서관 출판본)
+								</Label>
+								<Label
+									color="red"
 									href="http://drive.google.com/uc?export=view&id=1KG9-eqNhSQK2sRxx-q04ouNR0priJOyZ"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
-									<Label color="red">PDF(개인)</Label>
-								</a>
+									PDF(개인)
+								</Label>
 
 								<Modal
 									trigger={
-										<Label as="a" color="purple" onClick={() => this.show(true)}>
+										<Label as="a" color="purple" onClick={() => this.show4(true)}>
 											Abstract
 										</Label>
 									}
 									basic
 									size="small"
-									open={open}
-									onClose={this.close}
+									open={open4}
+									onClose={this.close4}
 								>
 									<Header>
 										<Label>Camera-Based Fall Detection</Label>
@@ -345,7 +372,7 @@ export default class Publication extends React.Component {
 										</p>
 									</Modal.Content>
 									<Modal.Actions>
-										<Button basic color="red" inverted onClick={this.close}>
+										<Button basic color="red" inverted onClick={this.close4}>
 											<Icon name="remove" />닫기
 										</Button>
 									</Modal.Actions>

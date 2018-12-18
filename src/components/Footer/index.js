@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
-import { List, Icon } from 'semantic-ui-react';
+import { List } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
 
 export default class Footer extends Component {
 	render() {
@@ -13,7 +14,7 @@ export default class Footer extends Component {
 
 				<List horizontal>
 					<List.Item>
-						<a href="https://github.com/hkang106/kakao-portfolio" target="_blank">
+						<a href="https://github.com/hkang106/kakao-portfolio" target="_blank" rel="noopener noreferrer">
 							소스코드@Github
 						</a>
 					</List.Item>
