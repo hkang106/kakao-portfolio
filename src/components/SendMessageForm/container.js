@@ -39,11 +39,17 @@ class Container extends React.Component {
 			let last_index = bot_responses.length - 1;
 			bot_cid = bot_cids[last_index];
 		}
-
-		this.props.chatActions.fetchBotMessage(bot_cid, this.state.message);
-		this.setState({
-			message: ''
-		});
+		if (e.keyCode === 13) {
+			this.props.chatActions.fetchBotMessage(bot_cid, this.state.message);
+			this.setState({
+				message: ''
+			});
+		} else {
+			this.props.chatActions.fetchBotMessage(bot_cid, this.state.message);
+			this.setState({
+				message: ''
+			});
+		}
 	}
 }
 

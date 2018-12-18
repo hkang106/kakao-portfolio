@@ -1,0 +1,9 @@
+.visible.transition {
+
+    margin-top: 0 !important;
+    display: inline-block !important;
+    position: relative;
+    top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}

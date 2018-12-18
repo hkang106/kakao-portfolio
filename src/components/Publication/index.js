@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button, Icon, Item, Label, List, Modal, Header, Message } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
-
+import './publication.css';
 // bigcomp2017: "http://drive.google.com/uc?export=view&id=17CeG1pUfFWT3748ZI1BqEKm08jgNiQ7Y"
 // bigcomp2016: "http://drive.google.com/uc?export=view&id=1pD1JnSXl14HefDmDIhFHLigo4Mc8v6ik"
 // kcc: "http://drive.google.com/uc?export=view&id=1HZWyVJhxnERylhx_Qanl43W0_42bcKf_"
+
 export default class Publication extends React.Component {
 	close1 = () => this.setState({ open1: false });
 	show1 = () => this.setState({ open1: true });
