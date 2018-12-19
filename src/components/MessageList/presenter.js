@@ -21,6 +21,7 @@ class MessageList extends React.Component {
 			return (
 				<div className="message-list">
 					<span>치매 예방 프로그램 연구를 위한 일본어 챗봇입니다.</span>
+					
 				</div>
 			);
 		}
@@ -29,7 +30,7 @@ class MessageList extends React.Component {
 				{messages.map((message, index) => {
 					return (
 						<div className="msg-container">
-							{console.log(is_bot_message)}
+							
 							{<Message className="message-user" text={message} is_bot={!is_bot_message} />}
 
 							{<Message className="message-bot" text={bot_responses[index]} is_bot={is_bot_message} />}
