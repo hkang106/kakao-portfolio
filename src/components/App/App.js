@@ -68,9 +68,9 @@ class App extends Component {
 	render() {
 		const { activeItem } = this.state;
 		return (
-			<div>
-				<div className="navi">
-					<Menu pointing secondary fixed="top" size="massive">
+			<div className="app-outter">
+				<Menu pointing secondary fixed="top" size="small">
+					<div id="navi" className="navi">
 						<Menu.Item
 							name="JOSHUA"
 							active={activeItem === 'JOSHUA'}
@@ -93,8 +93,9 @@ class App extends Component {
 							onClick={() => this.handleProjectClick()}
 						/>
 						<Menu.Item name="MISC" active={activeItem === 'MISC'} onClick={() => this.handleMiscClick()} />
-					</Menu>
-				</div>
+					</div>
+				</Menu>
+
 				<section ref={(ref) => (this.joshua = ref)} />
 				<div className="info">
 					<PersonInfo />

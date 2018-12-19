@@ -13,6 +13,10 @@ p {
     padding: 70px;
 }
 
+.app-outter {
+    padding-top: 40px;
+}
+
 .navi {
     opacity: 1;
     background-color: #FFDC00;
@@ -20,11 +24,12 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
+    float: center;
+    width: 100%;
 }
 
 .navi:hover {
-
     text-align: center;
     background-color: #FFFFFF;
 }
