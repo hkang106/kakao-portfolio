@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/brand-icons.13db00b7.eot"
   },
   {
-    "revision": "2e01287e2062d3dc4ba5",
-    "url": "/kakao-portfolio/static/css/main.2f5512e6.chunk.css"
+    "revision": "53a26902d8e7f913896b",
+    "url": "/kakao-portfolio/static/css/main.dcdf327a.chunk.css"
   },
   {
     "revision": "4abe5d84021767b36a9e01c3b377736f",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "2e01287e2062d3dc4ba5",
-    "url": "/kakao-portfolio/static/js/main.2e01287e.chunk.js"
+    "revision": "53a26902d8e7f913896b",
+    "url": "/kakao-portfolio/static/js/main.53a26902.chunk.js"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/css/1.f9d5cb38.chunk.css"
   },
   {
-    "revision": "be2f2cc2c6ab433e0dc8bd2f1528ed5d",
+    "revision": "d39bf67278dbd34324c3966f49d2515b",
     "url": "/kakao-portfolio/index.html"
   }
 ];
