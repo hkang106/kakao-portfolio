@@ -22,7 +22,7 @@ export default class Footer extends Component {
 
 				<List horizontal floated="right">
 					<List.Item>Latest Update:</List.Item>
-					<List.Item disabled>Friday, December 13, 2018</List.Item>
+					<List.Item disabled>Thursday, December 20, 2018</List.Item>
 				</List>
 			</div>
 		);
