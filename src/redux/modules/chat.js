@@ -1,4 +1,5 @@
 import { handleActions, createAction } from 'redux-actions';
+import axios from 'axios';
 
 //actions
 export const SEND_MESSAGE = 'SEND_MESSAGE';
@@ -28,8 +29,36 @@ const initialState = {
 
 // API action functions
 function fetchBotMessage(cid, user_utt) {
+	let headers = {
+		'Content-Type': 'application/json'
+	};
+	let data = JSON.stringify({
+		prev_bot_cid: cid,
+		user_utt: user_utt
+	});
 	return (dispatch, getState) => {
-		fetch('https://dialogue-data-character-backend.themusio.com/api/chat/jp/si/', {
+		axios
+			.post('https://dialogue-data-character-backend.themusio.com/api/chat/jp/si/', data, { headers: headers })
+			.then((response) => response.data)
+			.then((data) => {
+				const { bot_response: { body, comment_id }, next_options } = data;
+				const { chat: { is_option_selected, messages } } = getState();
+
+				if (messages.length === 0) {
+					dispatch(initiateChat());
+				}
+				if (is_option_selected === false) {
+					dispatch(sendMessage(user_utt));
+				}
+				dispatch(setBotResponse({ comment_id, body }));
+				dispatch(setOption({ next_options }));
+
+				//return json;
+			})
+			.catch((err) => console.log(err));
+		/*
+    
+    fetch('https://dialogue-data-character-backend.themusio.com/api/chat/jp/si/', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -55,7 +84,9 @@ function fetchBotMessage(cid, user_utt) {
 
 				//return json;
 			})
-			.catch((err) => console.log(err));
+      .catch((err) => console.log(err));
+      
+      */
 	};
 }
 

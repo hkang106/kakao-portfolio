@@ -30,6 +30,7 @@ class Container extends React.Component {
 
 	_handleSubmit(e) {
 		e.preventDefault();
+		console.log('_handleSubmit');
 		const { chat: { bot_responses, bot_cids } } = this.props;
 		let bot_cid = null;
 
@@ -39,17 +40,10 @@ class Container extends React.Component {
 			let last_index = bot_responses.length - 1;
 			bot_cid = bot_cids[last_index];
 		}
-		if (e.keyCode === 13) {
-			this.props.chatActions.fetchBotMessage(bot_cid, this.state.message);
-			this.setState({
-				message: ''
-			});
-		} else {
-			this.props.chatActions.fetchBotMessage(bot_cid, this.state.message);
-			this.setState({
-				message: ''
-			});
-		}
+		this.props.chatActions.fetchBotMessage(bot_cid, this.state.message);
+		this.setState({
+			message: ''
+		});
 	}
 }
 
