@@ -71,28 +71,56 @@ class App extends Component {
 			<div className="app-outter">
 				<Menu pointing secondary fixed="top" size="small">
 					<div id="navi" className="navi">
-						<Menu.Item
-							name="JOSHUA"
-							active={activeItem === 'JOSHUA'}
-							onClick={() => this.handleJoshuaClick()}
-						/>
-						<Menu.Item
-							name="PUBLICATIONS"
-							active={activeItem === 'PUBLICATION'}
-							onClick={() => this.handlePublicationClick()}
-						/>
-
-						<Menu.Item
-							name="PATENT"
-							active={activeItem === 'PATENT'}
-							onClick={() => this.handlePatentClick()}
-						/>
-						<Menu.Item
-							name="PROJECT"
-							active={activeItem === 'PROJECT'}
-							onClick={() => this.handleProjectClick()}
-						/>
-						<Menu.Item name="MISC" active={activeItem === 'MISC'} onClick={() => this.handleMiscClick()} />
+						<div
+							onMouseOver={() => this.setState({ activeItem: 'JOSHUA' })}
+							onMouseOut={() => this.setState({ activeItem: null })}
+						>
+							<Menu.Item
+								name="JOSHUA"
+								active={activeItem === 'JOSHUA'}
+								onClick={() => this.handleJoshuaClick()}
+							/>
+						</div>
+						<div
+							onMouseOver={() => this.setState({ activeItem: 'PUBLICATIONS' })}
+							onMouseOut={() => this.setState({ activeItem: null })}
+						>
+							<Menu.Item
+								name="PUBLICATIONS"
+								active={activeItem === 'PUBLICATIONS'}
+								onClick={() => this.handlePublicationClick()}
+							/>
+						</div>
+						<div
+							onMouseOver={() => this.setState({ activeItem: 'PATENT' })}
+							onMouseOut={() => this.setState({ activeItem: null })}
+						>
+							<Menu.Item
+								name="PATENT"
+								active={activeItem === 'PATENT'}
+								onClick={() => this.handlePatentClick()}
+							/>
+						</div>
+						<div
+							onMouseOver={() => this.setState({ activeItem: 'PROJECT' })}
+							onMouseOut={() => this.setState({ activeItem: null })}
+						>
+							<Menu.Item
+								name="PROJECT"
+								active={activeItem === 'PROJECT'}
+								onClick={() => this.handleProjectClick()}
+							/>
+						</div>
+						<div
+							onMouseOver={() => this.setState({ activeItem: 'MISC' })}
+							onMouseOut={() => this.setState({ activeItem: null })}
+						>
+							<Menu.Item
+								name="MISC"
+								active={activeItem === 'MISC'}
+								onClick={() => this.handleMiscClick()}
+							/>
+						</div>
 					</div>
 				</Menu>
 
