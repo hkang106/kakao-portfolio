@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/brand-icons.13db00b7.eot"
   },
   {
-    "revision": "b2b4ce1c24b7f93bb6fd",
-    "url": "/kakao-portfolio/static/css/main.5958dd61.chunk.css"
+    "revision": "f2717f416062aa59005e",
+    "url": "/kakao-portfolio/static/css/main.9685cdb8.chunk.css"
   },
   {
     "revision": "4abe5d84021767b36a9e01c3b377736f",
     "url": "/kakao-portfolio/static/media/profile-main.4abe5d84.jpg"
   },
   {
-    "revision": "81c67aa9546173196805",
-    "url": "/kakao-portfolio/static/js/1.81c67aa9.chunk.js"
+    "revision": "96f8a59962d5c7362f2a",
+    "url": "/kakao-portfolio/static/js/1.96f8a599.chunk.js"
   },
   {
     "revision": "c3271036dd476adeba61",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
-    "url": "/kakao-portfolio/static/media/outline-icons.ad97afd3.ttf"
-  },
-  {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
     "url": "/kakao-portfolio/static/media/outline-icons.701ae6ab.eot"
+  },
+  {
+    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
+    "url": "/kakao-portfolio/static/media/outline-icons.ad97afd3.ttf"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "b2b4ce1c24b7f93bb6fd",
-    "url": "/kakao-portfolio/static/js/main.b2b4ce1c.chunk.js"
+    "revision": "f2717f416062aa59005e",
+    "url": "/kakao-portfolio/static/js/main.f2717f41.chunk.js"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -124,11 +124,11 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/media/dow.afba0dda.png"
   },
   {
-    "revision": "81c67aa9546173196805",
-    "url": "/kakao-portfolio/static/css/1.bbb8f245.chunk.css"
+    "revision": "96f8a59962d5c7362f2a",
+    "url": "/kakao-portfolio/static/css/1.f9d5cb38.chunk.css"
   },
   {
-    "revision": "bdf41da2e5138681b2fef42c8fa1acee",
+    "revision": "4e7e04761fcc3953163ce87e994da78d",
     "url": "/kakao-portfolio/index.html"
   }
 ];
