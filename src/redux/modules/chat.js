@@ -52,8 +52,6 @@ function fetchBotMessage(cid, user_utt) {
 				}
 				dispatch(setBotResponse({ comment_id, body }));
 				dispatch(setOption({ next_options }));
-
-				//return json;
 			})
 			.catch((err) => console.log(err));
 		/*
