@@ -37,6 +37,7 @@ function fetchBotMessage(cid, user_utt) {
 		user_utt: user_utt
 	});
 	return (dispatch, getState) => {
+		/* 
 		axios
 			.post('https://dialogue-data-character-backend.themusio.com/api/chat/jp/si/', data, { headers: headers })
 			.then((response) => response.data)
@@ -53,10 +54,11 @@ function fetchBotMessage(cid, user_utt) {
 				dispatch(setBotResponse({ comment_id, body }));
 				dispatch(setOption({ next_options }));
 			})
-			.catch((err) => console.log(err));
-		/*
-    
-    fetch('https://dialogue-data-character-backend.themusio.com/api/chat/jp/si/', {
+      .catch((err) => console.log(err));
+      
+      */
+
+		fetch('https://dialogue-data-character-backend.themusio.com/api/chat/jp/si/', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -82,9 +84,7 @@ function fetchBotMessage(cid, user_utt) {
 
 				//return json;
 			})
-      .catch((err) => console.log(err));
-      
-      */
+			.catch((err) => console.log(err));
 	};
 }
 
