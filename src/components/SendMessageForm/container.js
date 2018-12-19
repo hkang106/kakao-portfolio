@@ -12,12 +12,14 @@ class Container extends React.Component {
 	}
 
 	render() {
+		const { chat: {is_chat_initiated} } = this.props;
 		return (
 			<div>
 				<SendMessageForm
 					handleChange={this._handleChange}
 					handleSubmit={this._handleSubmit}
 					message={this.state.message}
+					is_chat_initiated={is_chat_initiated}
 				/>
 			</div>
 		);
@@ -30,7 +32,6 @@ class Container extends React.Component {
 
 	_handleSubmit(e) {
 		e.preventDefault();
-		console.log('_handleSubmit');
 		const { chat: { bot_responses, bot_cids } } = this.props;
 		let bot_cid = null;
 
@@ -41,6 +42,7 @@ class Container extends React.Component {
 			bot_cid = bot_cids[last_index];
 		}
 		this.props.chatActions.fetchBotMessage(bot_cid, this.state.message);
+		this.props.chatActions.initiateChat();
 		this.setState({
 			message: ''
 		});

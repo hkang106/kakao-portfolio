@@ -143,7 +143,8 @@ export default handleActions(
 const actionCreators = {
 	sendMessage,
 	fetchBotMessage,
-	clickOption
+  clickOption,
+  initiateChat
 };
 
 export { actionCreators };

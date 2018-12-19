@@ -15,12 +15,8 @@
     padding: 4px 8px;
     border-radius: 8px;
     margin: 15px 0;
-    text-align: justify;
-    /* For Edge */
-    -moz-text-align-last: right;
-    /* For Firefox prior 58.0 */
-    text-align-last: right;
-    /*text-align: end not supporting in IE*/
+
+
 }
 
 .message-bot .message-text-bot {
@@ -29,6 +25,6 @@
     display: inline;
     padding: 4px 8px;
     border-radius: 8px;
-    text-align: start;
+
 
 }
