@@ -1,7 +1,14 @@
 .profile {
     background-color: #FFDC00;
-    padding: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
     font-family: 'Nanum Gothic',
         sans-serif;
     font-size: 13px;
+}
+
+.profile .verse {
+    color: rgb(90, 88, 88);
 }

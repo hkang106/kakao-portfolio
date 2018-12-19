@@ -9,7 +9,7 @@ import 'semantic-ui-css/semantic.min.css';
 const PersonInfo = () => {
 	return (
 		<div className="profile">
-			<Container>
+			<Container textAlign="center">
 				<Grid centered columns={2} relaxed="very">
 					<Grid.Column width={6}>
 						<Image src={require('images/profile-main.jpg')} size="medium" circular />
@@ -42,6 +42,9 @@ const PersonInfo = () => {
 				</Grid>
 
 				<Divider hidden />
+				<div className="verse">
+					<span>가로되 찬송하리로다 주의 이름으로 오시는 왕이여 하늘에는 평화요 가낭 높은 곳에는 영광이로다 하니(눅19:38)</span>
+				</div>
 			</Container>
 		</div>
 	);
