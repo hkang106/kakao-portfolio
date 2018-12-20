@@ -27,12 +27,12 @@
     display: flex;
     justify-content: center;
     display: inline-block;
-    
+
 }
 
 .profile-pic {
     transition: transform .2s;
-    
+
 }
 
 .profile-pic:hover {

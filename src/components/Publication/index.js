@@ -95,10 +95,22 @@ export default class Publication extends React.Component {
 									onClose={this.close1}
 								>
 									<Header>
-										<Label>Camera-Based Fall Detection</Label>
-										<Label>Complex Event Processing</Label>
-										<Label>Event Selection Strategy</Label>
-										<Label>Event Pattern Matching</Label>
+										<List horizontal>
+											<div className="pub-label">
+												<List.Item>
+													<Label>Camera-Based Fall Detection</Label>
+												</List.Item>
+												<List.Item>
+													<Label>Complex Event Processing</Label>
+												</List.Item>
+												<List.Item>
+													<Label>Event Selection Strategy</Label>
+												</List.Item>
+												<List.Item>
+													<Label>Event Pattern Matching</Label>
+												</List.Item>
+											</div>
+										</List>
 									</Header>
 									<Modal.Content>
 										<p>
@@ -193,9 +205,19 @@ export default class Publication extends React.Component {
 									onClose={this.close2}
 								>
 									<Header>
-										<Label>Automatic Surveillance Cameras</Label>
-										<Label>Human Body Posture Recognition</Label>
-										<Label>Dimensionality Reduction</Label>
+										<List>
+											<div className="pub-label">
+												<List.Item>
+													<Label>Automatic Surveillance Cameras</Label>
+												</List.Item>
+												<List.Item>
+													<Label>Human Body Posture Recognition</Label>
+												</List.Item>
+												<List.Item>
+													<Label>Dimensionality Reduction</Label>
+												</List.Item>
+											</div>
+										</List>
 									</Header>
 									<Modal.Content>
 										<p>
@@ -270,9 +292,17 @@ export default class Publication extends React.Component {
 									onClose={this.close3}
 								>
 									<Header>
-										<Label>Time Series Analysis</Label>
-										<Label>Community Analysis</Label>
-										<Label>Mapreduce</Label>
+										<List>
+											<List.Item>
+												<Label>Time Series Analysis</Label>
+											</List.Item>
+											<List.Item>
+												<Label>Community Analysis</Label>
+											</List.Item>
+											<List.Item>
+												<Label>Mapreduce</Label>
+											</List.Item>
+										</List>
 									</Header>
 									<Modal.Content>
 										<p>

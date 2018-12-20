@@ -24,7 +24,7 @@ const PersonInfo = () => {
 				position="right center"
 			>
 				<Popup.Content inverted>
-					<List size={'massive'}>
+					<List size={'huge'}>
 						<List.Item>
 							<List.Icon name="users" />
 							<List.Content>강현국(Joshua)</List.Content>
@@ -41,7 +41,9 @@ const PersonInfo = () => {
 						</List.Item>
 						<List.Item>
 							<List.Icon name="marker" />
-							<List.Content>서울특별시 성북구 종암동 34-7 천우네오젠 102동 501호</List.Content>
+							<List.Content>
+								서울특별시 성북구 종암동 34-7<br />천우네오젠 102동 501호
+							</List.Content>
 						</List.Item>
 					</List>
 				</Popup.Content>

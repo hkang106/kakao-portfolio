@@ -7,3 +7,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.pub-label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
