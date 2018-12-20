@@ -8,7 +8,7 @@
   "runtime~main.js": "/kakao-portfolio/static/js/runtime~main.c3271036.js",
   "runtime~main.js.map": "/kakao-portfolio/static/js/runtime~main.c3271036.js.map",
   "static/media/fall.png": "/kakao-portfolio/static/media/fall.f415cb96.png",
-  "static/media/semantic.min.css": "/kakao-portfolio/static/media/outline-icons.ef60a4f6.woff",
+  "static/media/semantic.min.css": "/kakao-portfolio/static/media/outline-icons.cd6c777f.woff2",
   "static/media/musio-embed.png": "/kakao-portfolio/static/media/musio-embed.b1a3cea6.png",
   "static/media/bigcomp2017.png": "/kakao-portfolio/static/media/bigcomp2017.0b22e5da.png",
   "static/media/bigcomp2016.png": "/kakao-portfolio/static/media/bigcomp2016.438a180f.png",
@@ -22,6 +22,6 @@
   "static/css/main.25585805.chunk.css.map": "/kakao-portfolio/static/css/main.25585805.chunk.css.map",
   "static/css/1.bdcedddd.chunk.css.map": "/kakao-portfolio/static/css/1.bdcedddd.chunk.css.map",
   "index.html": "/kakao-portfolio/index.html",
-  "precache-manifest.3f8316d3d1e22c610286f477f13b1c3d.js": "/kakao-portfolio/precache-manifest.3f8316d3d1e22c610286f477f13b1c3d.js",
+  "precache-manifest.e53bdb058221ec12a3ceef1dc5b6a617.js": "/kakao-portfolio/precache-manifest.e53bdb058221ec12a3ceef1dc5b6a617.js",
   "service-worker.js": "/kakao-portfolio/service-worker.js"
 }
