@@ -45,7 +45,6 @@ class App extends Component {
 	};
 
 	componentDidMount = () => {
-		console.log(this.state.activeItem);
 		scrollToComponent(this.joshua, {
 			offset: -100,
 			align: 'top',
