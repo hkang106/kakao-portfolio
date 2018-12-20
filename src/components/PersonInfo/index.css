@@ -1,15 +1,41 @@
+:root {
+    --verse-color: black;
+}
+
 .profile {
     background-color: #FFDC00;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-family: 'Nanum Gothic',
         sans-serif;
     font-size: 13px;
-   
+    text-align: center;
 }
 
 .profile .verse {
-    color: rgb(90, 88, 88);
+    background: var(--verse-color);
+    border-radius: 8px;
+    color: white;
+    padding: 4px 8px;
+    display: inline;
+
+}
+
+.profile-pic-parent {
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    
+}
+
+.profile-pic {
+    transition: transform .2s;
+    
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
