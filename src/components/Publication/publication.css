@@ -1,3 +1,8 @@
+p {
+    font-size: 17px;
+    text-align: justify;
+}
+
 .visible.transition {
 
     margin-top: 0 !important;
@@ -13,4 +18,28 @@
     flex-direction: row;
     flex-wrap: nowrap;
 
+}
+
+.abstract {
+    overflow-y: auto;
+}
+
+.abstract::-webkit-scrollbar {
+    width: 7px;
+
+
+}
+
+.abstract::-webkit-scrollbar-track {
+    background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
 }
