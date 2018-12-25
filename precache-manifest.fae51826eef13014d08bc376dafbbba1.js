@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/kakao-portfolio/static/css/1.bdcedddd.chunk.css"
   },
   {
-    "revision": "5d04362ecba1162da8694486048e0491",
+    "revision": "d3b5d4c8ab6c33f341b7b54c3b636671",
     "url": "/kakao-portfolio/index.html"
   }
 ];
