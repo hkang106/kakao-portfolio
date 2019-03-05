@@ -48,15 +48,6 @@ const PersonInfo = () => {
 					</List>
 				</Popup.Content>
 			</Popup>
-
-			<Divider hidden />
-			<Container textAlign="center">
-				<div className="verse">
-					<span>
-						<b>가로되 찬송하리로다 주의 이름으로 오시는 왕이여 하늘에는 평화요 가낭 높은 곳에는 영광이로다 하니(눅19:38)</b>
-					</span>
-				</div>
-			</Container>
 		</div>
 	);
 };

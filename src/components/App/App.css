@@ -19,7 +19,7 @@ p {
 
 .navi {
     opacity: 1;
-    background-color: #FFDC00;
+    background-color: rgb(170, 161, 221);
     display: flex;
     align-items: center;
     justify-content: center;
