@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/portfolio/static/media/brand-icons.13db00b7.eot"
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/portfolio/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "b59e134f88a22e5eb912",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/portfolio/static/media/icons.b87b9ba5.ttf"
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/portfolio/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "b59e134f88a22e5eb912",
