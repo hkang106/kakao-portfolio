@@ -11,7 +11,7 @@ export default class Footer extends Component {
 					<Grid.Row textAlign="center" padded>
 						<Grid.Column>
 							<List horizontal>
-								<List.Item>카카오 지원 포트폴리오</List.Item>
+								<List.Item>Joshua 포트폴리오</List.Item>
 							</List>
 						</Grid.Column>
 						<Grid.Column>
@@ -22,15 +22,15 @@ export default class Footer extends Component {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										소스코드@Github
+										소스코드(Github)
 									</a>
 								</List.Item>
 							</List>
 						</Grid.Column>
 						<Grid.Column>
 							<List horizontal>
-								<List.Item>Latest Update:</List.Item>
-								<List.Item disabled>December 20, 2018</List.Item>
+								<List.Item>업데이트:</List.Item>
+								<List.Item disabled>March 5, 2019</List.Item>
 							</List>
 						</Grid.Column>
 					</Grid.Row>
